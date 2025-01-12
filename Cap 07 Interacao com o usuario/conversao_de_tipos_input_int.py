@@ -1,4 +1,5 @@
-valor_inteiro = int(input("Insira um número inteiro: "))
+entrada = input("Insira um número inteiro: ")
+numero = int(entrada)
 
-valor_string = str(valor_inteiro)
-print(type(valor_string))
+print(type(entrada))
+print(type(numero))
